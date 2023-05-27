@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/popup.css" />
+    <script type="module" src="../js/popup.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-detail">
+        <div class="label-large" data-localize="EXT_NAME_SHORT"></div>
+      </div>
+    </header>
+    <div class="group">
+      <div id="action_toggle" class="item nav-index">
+        <div class="left-detail">
+          <div id="icon_toggle" class="item-icon power"></div>
+          <div class="label" data-localize="ACTIVATE"></div>
+        </div>
+        <div class="right-detail">
+          <div class="accelerator" data-accelerator="TOGGLE"></div>
+        </div>
+      </div>
+    </div>
+    <div class="group">
+      <label for="displaySleep" class="item nav-index">
+        <div class="left-detail">
+          <div class="item-icon display"></div>
+          <div class="label" data-localize="OPTIONS_DISPLAY_SLEEP"></div>
+        </div>
+        <div class="right-detail">
+          <label class="switch">
+            <input type="checkbox" id="displaySleep" />
+            <span class="track no-transition"></span>
+          </label>
+        </div>
+      </label>
+      <label for="autoDownloads" class="item nav-index">
+        <div class="left-detail">
+          <div class="item-icon download"></div>
+          <div class="label" data-localize="OPTIONS_AUTO_DOWNLOAD"></div>
+        </div>
+        <div class="right-detail">
+          <label class="switch">
+            <input type="checkbox" id="autoDownloads" />
+            <span class="track no-transition"></span>
+          </label>
+        </div>
+      </label>
+      <label for="sounds" class="item nav-index">
+        <div class="left-detail">
+          <div class="item-icon sound"></div>
+          <div class="label" data-localize="OPTIONS_SOUNDS"></div>
+        </div>
+        <div class="right-detail">
+          <label class="switch">
+            <input type="checkbox" id="sounds" />
+            <span class="track no-transition"></span>
+          </label>
+        </div>
+      </label>
+    </div>
+  </body>
+</html>

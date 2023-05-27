@@ -1,0 +1,32 @@
+{
+  "EXT_NAME": {
+    "message": "Stay Awake - Keep your system awake"
+  },
+  "EXT_NAME_SHORT": {
+    "message": "Stay Awake"
+  },
+  "EXT_DESCRIPTION": {
+    "message": "Keep your system and display awake whenever you need it or during long downloads."
+  },
+  "ACTIVATE": {
+    "message": "Activate"
+  },
+  "DEACTIVATE": {
+    "message": "Deactivate"
+  },
+  "OPTIONS_SOUNDS": {
+    "message": "Sounds"
+  },
+  "OPTIONS_DISPLAY_SLEEP": {
+    "message": "Allow display to sleep"
+  },
+  "OPTIONS_AUTO_DOWNLOAD": {
+    "message": "Activate while downloading files"
+  },
+  "ACCELERATOR_TOGGLE": {
+    "message": "Ctrl+Shift+O"
+  },
+  "ACCELERATOR_TOGGLE_MAC": {
+    "message": "\u21E7\u2318O"
+  }
+}
