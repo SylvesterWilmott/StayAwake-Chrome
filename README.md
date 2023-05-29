@@ -1,5 +1,8 @@
 # Stay Awake
 
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/gofaiibillcpfajafckhoieamembimje)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/users/gofaiibillcpfajafckhoieamembimje)
+
 Stay Awake is a Chrome extension that lets you prevent your system from going to sleep or your display from turning off.
 
 ## Installation
