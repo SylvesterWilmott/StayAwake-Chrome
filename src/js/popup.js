@@ -177,7 +177,7 @@ function requestDownloadPermission () {
         if (granted) {
           resolve(true)
         } else {
-          resolve(true)
+          resolve(false)
         }
       }
     )
