@@ -1,7 +1,7 @@
 {
   "name": "stay-awake",
   "productName": "Stay Awake",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Sylvester Wilmott",
   "license": "GPL-3.0",
   "devDependencies": {
