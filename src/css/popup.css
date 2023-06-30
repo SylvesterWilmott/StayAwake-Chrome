@@ -197,6 +197,10 @@ input:checked + .track {
   mask-image: url(../images/close.svg);
 }
 
+.item-icon.startup {
+  -webkit-mask-image: url(../images/startup.svg);
+  mask-image: url(../images/startup.svg);
+}
 
 .edge .switch {
   width: 40px;

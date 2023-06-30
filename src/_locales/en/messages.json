@@ -23,6 +23,9 @@
   "OPTIONS_AUTO_DOWNLOAD": {
     "message": "Activate while downloading files"
   },
+  "OPTIONS_ON_STARTUP": {
+    "message": "Activate on startup"
+  },
   "ACCELERATOR_TOGGLE": {
     "message": "Ctrl+Shift+O"
   },

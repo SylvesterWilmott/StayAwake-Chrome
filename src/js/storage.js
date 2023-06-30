@@ -5,7 +5,8 @@
 export const preferenceDefaults = {
   sounds: { status: true, permissions: null },
   displaySleep: { status: false, permissions: null },
-  autoDownloads: { status: false, permissions: ['downloads'] }
+  autoDownloads: { status: false, permissions: ['downloads'] },
+  onStartup: { status: false, permissions: null }
 }
 
 export function saveSession (key, value) {

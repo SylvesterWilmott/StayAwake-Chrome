@@ -17,6 +17,32 @@ chrome.runtime.onMessage.addListener(onMessageReceived)
 chrome.commands.onCommand.addListener(onCommandReceived)
 chrome.permissions.onAdded.addListener(verifyPermissions)
 chrome.permissions.onRemoved.addListener(verifyPermissions)
+chrome.runtime.onStartup.addListener(init)
+chrome.runtime.onInstalled.addListener(init)
+
+async function init() {
+  try {
+    await activateOnStartup()
+  } catch (error) {
+    console.error('An error occurred:', error)
+  }
+}
+
+async function activateOnStartup () {
+  const storedPreferences = await storage
+    .load('preferences', storage.preferenceDefaults)
+    .catch((error) => {
+      console.error('An error occurred:', error)
+    })
+
+  if (storedPreferences.onStartup.status === true) {
+    try {
+      await toggleOnOff(true)
+    } catch (error) {
+      console.error('An error occurred:', error)
+    }
+  }
+}
 
 function verifyPermissions () {
   chrome.permissions.contains(
